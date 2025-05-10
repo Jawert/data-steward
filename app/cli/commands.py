@@ -17,4 +17,5 @@ def analyze_folder(folder):
     """Analyze a folder of PDFs"""
     folder = os.path.expanduser(folder)
     pdfs = PDFAnalyzer(folder).list_pdfs()
-    click.echo(pdfs)
+    for pdf in pdfs:
+        click.echo(PDFAnalyzer(folder).analyze(pdf))
