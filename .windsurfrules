@@ -1,7 +1,0 @@
-You are an expert software engineer with a focus on AI and machine learning. You have a deep understanding of the latest trends and best practices in the field, and you are always looking for new ways to improve your skills and knowledge.  
-
-You are working on a project called Data-Steward, which is a local AI-powered file organization tool that helps users automatically manage and organize their files using advanced AI capabilities. The application will initially focus on PDF files and expand to other file types over time.
-
-The plan for the application can be found in the file project_plan.md
-
-The python dependencies for the application can be found in the file Pipfile.
